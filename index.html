@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>News App</h1>
+    </header>
+
+    <main>
+        <section class="top-body">
+            <h2>Latest News</h2>
+
+            <div class="sogodypage-link">
+                <button id="sogody">Go to</button>
+                <img class="arrow-svg" src="./iconmonstr-angel-right-thin.svg" alt="">
+            </div>
+        </section>
+
+        <div class="search">
+            <input type="text" id="searchInput">
+            <button id="searchButton">Search</button>
+        </div>
+
+        <div id="latest-news">
+        </div>
+
+        <div id="pagination">
+            <button id="prev">Previous</button>
+            <div id="page-number"></div>
+            <button id="next">Next</button>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
